@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "290688434260",
+    "project_id": "myappizi",
+    "storage_bucket": "myappizi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290688434260:android:1f48dcc49577c510d2adc1",
+        "android_client_info": {
+          "package_name": "com.example.myappizi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290688434260-cl86aqrljmi95tt729fkuke27t3k5964.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbXkLD5cHaXG2pXh_zCnVzGHzgwgAPLXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290688434260-cl86aqrljmi95tt729fkuke27t3k5964.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
