@@ -1,6 +1,349 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
 
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:text="Mã HD : " />
+
+        <EditText
+            android:id="@+id/edt_maHD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="90dp"
+            android:inputType="textPersonName"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:id="@+id/textVi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:text="Tên HD : " />
+
+        <EditText
+            android:id="@+id/edt_tenHD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="90dp"
+            android:inputType="textPersonName"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:id="@+id/textV2i2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:text="Mô tả  : " />
+
+        <EditText
+            android:id="@+id/edt_motaHD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="90dp"
+            android:inputType="textPersonName"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:id="@+id/text1V2i2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:text="Bắt đầu  : " />
+
+        <EditText
+            android:id="@+id/edt_batdau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="90dp"
+            android:inputType="date"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:id="@+id/text111V2i2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:text="Kết thúc  : " />
+
+        <EditText
+            android:id="@+id/edt_ketthuc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="90dp"
+            android:inputType="date"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:id="@+id/texV2i2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:text="SL tối thiểu  : " />
+
+        <EditText
+            android:id="@+id/edt_slToiThieu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="90dp"
+            android:inputType="phone"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:id="@+id/texV21i2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:text="SL tối đa  : " />
+
+        <EditText
+            android:id="@+id/edt_slToiDa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="90dp"
+            android:inputType="phone"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:id="@+id/txt1212"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:text="Thời hạn ĐK : " />
+
+        <EditText
+            android:id="@+id/edt_thoihandk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="90dp"
+            android:inputType="date"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:id="@+id/txt12112"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:text="Trạng thái : " />
+
+        <EditText
+            android:id="@+id/edt_trangthai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="90dp"
+            android:inputType="date"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:id="@+id/tetView222"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:text="Trạng thái : " />
+
+        <Spinner
+            android:id="@+id/spiner_trangthai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:id="@+id/textView222"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:text="Mã TV : " />
+
+        <EditText
+            android:id="@+id/edt_matv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="90dp"
+            android:inputType="textPersonName"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <Button
+           android:id="@+id/btn_suaHD"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_weight="1"
+           android:backgroundTint="@android:color/holo_red_dark"
+           android:text="Sửa" />
+       <Button
+           android:id="@+id/btn_xoaHD"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_weight="1"
+           android:backgroundTint="@android:color/holo_red_dark"
+           android:text="XÓA" />
+
+       <Button
+           android:id="@+id/btn_danhgiaHD"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_weight="1"
+           android:backgroundTint="@android:color/holo_red_dark"
+           android:text="Đánh giá" />
+
+   </LinearLayout>
 </LinearLayout>

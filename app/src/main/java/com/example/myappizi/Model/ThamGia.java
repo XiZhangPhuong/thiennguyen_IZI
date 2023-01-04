@@ -1,7 +1,7 @@
 package com.example.myappizi.Model;
 
 public class ThamGia {
-    private String Matv,Mahd,Ngaygiodk;
+    private String Matv,Mahd,tenTV,Ngaygiodk;
     private double diemTruongDoan;
     private double diemtc1,diemtc2,diemtv3;
     private String nhanXeyKhac;
@@ -9,9 +9,10 @@ public class ThamGia {
     public ThamGia() {
     }
 
-    public ThamGia(String matv, String mahd, String ngaygiodk, double diemTruongDoan, double diemtc1, double diemtc2, double diemtv3, String nhanXeyKhac) {
+    public ThamGia(String matv, String mahd, String tenTV, String ngaygiodk, double diemTruongDoan, double diemtc1, double diemtc2, double diemtv3, String nhanXeyKhac) {
         Matv = matv;
         Mahd = mahd;
+        this.tenTV = tenTV;
         Ngaygiodk = ngaygiodk;
         this.diemTruongDoan = diemTruongDoan;
         this.diemtc1 = diemtc1;
@@ -34,6 +35,14 @@ public class ThamGia {
 
     public void setMahd(String mahd) {
         Mahd = mahd;
+    }
+
+    public String getTenTV() {
+        return tenTV;
+    }
+
+    public void setTenTV(String tenTV) {
+        this.tenTV = tenTV;
     }
 
     public String getNgaygiodk() {

@@ -53,10 +53,13 @@ private View mView;
                 if(edt_maHD.length()>0 && edt_tenHD.length()>0 && edt_motaHD.length()>0 &&
                         edt_batdau.length()>0 && edt_ketthuc.length()>0 && edt_slToiThieu.length()>0 &&
                         edt_slToiDa.length()>0 && edt_thoihandk.length()>0 && edt_matv.length()>0){
+
+
                     HoatDong hd = new HoatDong(edt_maHD.getText().toString(),edt_tenHD.getText().toString(),
                             edt_motaHD.getText().toString(),edt_batdau.getText().toString(),edt_ketthuc.getText().toString(),
                             Integer.parseInt(edt_slToiThieu.getText().toString()),Integer.parseInt(edt_slToiDa.getText().toString()),edt_thoihandk.getText().toString(),
                             "Đang mời đăng ký",edt_matv.getText().toString(),"");
+
                     data_HoatDong.child(edt_maHD.getText().toString()).setValue(hd);
                     Toast.makeText(getContext(),"Them thanh cong",Toast.LENGTH_SHORT).show();
                     edt_maHD.setText("");

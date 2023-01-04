@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DanhGiaActivity">
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:text="DIEMTRUONGDOAN : " />
+
+        <EditText
+            android:id="@+id/edt_diemdanhgia"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="90dp"
+            android:inputType="phone"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textVie2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="Hoat dong nay co huu ich voi ban k : " />
+
+    <EditText
+        android:id="@+id/edt_tieuchi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:hint="Tiêu chi 1 "
+        />
+    <TextView
+        android:id="@+id/textVi2e2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="Hoat dong nay co nen to chuc thuong xuyen k : " />
+
+    <EditText
+        android:id="@+id/edt_tieuchi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:hint="Tiêu chi 2 "
+        />
+    <TextView
+        android:id="@+id/dsds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="Hoat dong nay co to chuc rong rai cho nhieu nguoi tham gia : " />
+
+    <EditText
+        android:id="@+id/edt_tieuchi3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:hint="Tiêu chi 3 "
+        />
+
+    <TextView
+        android:id="@+id/tex11tVie2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Nhan xet khac : " />
+
+    <EditText
+        android:id="@+id/edt_nhanxetkhac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"
+        android:hint="Nhận xét "
+        />
+
+    <Button
+        android:id="@+id/btn_danhgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="đánh giá" />
+</LinearLayout>
